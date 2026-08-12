@@ -24,7 +24,8 @@
 
 # 👇 Apna solution yahan likho:
 
-
+num = {n: n for n in range(1, 6)}
+print(num)
 # ============================================================
 # Q2 ⭐⭐ — Squares
 # ============================================================
@@ -34,6 +35,9 @@
 # Expected: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36}
 
 # 👇 Apna solution yahan likho:
+
+square = {n: n * n for n in range(1, 7)}
+print(square)
 
 
 # ============================================================
@@ -48,7 +52,8 @@
 words = ["Python", "DSA", "Dictionary", "Code"]
 
 # 👇 Apna solution yahan likho:
-
+length = {word: len(words) for word in words}
+print(length)
 
 # ============================================================
 # Q4 ⭐⭐ — Uppercase Keys
@@ -63,7 +68,8 @@ original = {"name": "Shivaji", "age": 21, "city": "Mumbai"}
 
 # 👇 Apna solution yahan likho:
 
-
+upper = {key.upper(): val  for key,val in original.items()}
+print(upper)
 # ============================================================
 # Q5 ⭐⭐ — Filtered Dictionary (Value Filter)
 # ============================================================
@@ -72,17 +78,12 @@ original = {"name": "Shivaji", "age": 21, "city": "Mumbai"}
 #
 # Expected: {'laptop': 60000, 'monitor': 15000}
 
-products = {
-    "mouse": 800,
-    "laptop": 60000,
-    "usb": 400,
-    "monitor": 15000,
-    "cable": 200
-}
+products = {"mouse": 800, "laptop": 60000, "usb": 400, "monitor": 15000, "cable": 200}
 
 # 👇 Apna solution yahan likho:
 
-
+price = {key:prod for key ,prod in products.items() if(prod > 1000)}
+print(price)
 # ============================================================
 # Q6 ⭐⭐⭐ — Invert Dictionary using Comprehension
 # ============================================================
@@ -95,7 +96,8 @@ products = {
 original = {1: "one", 2: "two", 3: "three"}
 
 # 👇 Apna solution yahan likho:
-
+ulta = {val : key for key , val in original.items()}
+print(ulta)
 
 # ============================================================
 # Q7 ⭐⭐⭐ — Passing Students Only
@@ -105,17 +107,12 @@ original = {1: "one", 2: "two", 3: "three"}
 #
 # Expected: {'Rahul': 82, 'Shivaji': 91, 'Rohit': 70}
 
-marks = {
-    "Amit": 45,
-    "Rahul": 82,
-    "Shivaji": 91,
-    "Priya": 38,
-    "Rohit": 70
-}
+marks = {"Amit": 45, "Rahul": 82, "Shivaji": 91, "Priya": 38, "Rohit": 70}
 
 # 👇 Apna solution yahan likho:
 
-
+passing_student = {key : val for key , val in marks.items() if (val >= 60)}
+print(passing_student)
 # ============================================================
 # Q8 ⭐⭐⭐ — Grade Assignment
 # ============================================================
@@ -131,6 +128,10 @@ marks = {
 
 # 👇 Apna solution yahan likho (same marks dict):
 
+grades = {name: "A" if score >= 90 else "B" if score >= 75 else "C" if score >= 60 else "F" for name, score in marks.items()}
+
+print(grades)
+
 
 # ============================================================
 # Q9 ⭐⭐⭐ — Even Squares Only
@@ -142,6 +143,8 @@ marks = {
 
 # 👇 Apna solution yahan likho:
 
+even_square = {num : num * num for num in range(1 , 11) if(num %2 ==0)}
+print(even_square)
 
 # ============================================================
 # Q10 🧠 — Two-List to Dictionary
@@ -156,12 +159,13 @@ marks = {
 # Expected:
 #   {'name': 'Shivaji', 'age': 21, 'city': 'Mumbai', 'job': 'Developer'}
 
-keys   = ["name", "age", "city", "job"]
+keys = ["name", "age", "city", "job"]
 values = ["Shivaji", 21, "Mumbai", "Developer"]
 
 # 👇 Apna solution yahan likho:
 
-
+my_dict = {k: v for k, v in zip(keys, values)}
+print(my_dict)
 # ============================================================
 # ✅ Day 05 | 07 - Dictionary Comprehension Complete
 # ============================================================
