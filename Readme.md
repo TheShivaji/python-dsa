@@ -11,7 +11,7 @@
 <!-- Badges Row 1 -->
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2014%20Complete-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](#-learning-curriculum--progress)
+[![Progress](https://img.shields.io/badge/Progress-Day%2015%20Complete-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](#-learning-curriculum--progress)
 [![Tooling: uv](https://img.shields.io/badge/Powered%20By-uv%200.12+-DE5FE9?style=for-the-badge&logo=astral&logoColor=white)](https://astral.sh/uv)
 [![Author](https://img.shields.io/badge/Author-TheShivaji-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheShivaji)
 
@@ -21,15 +21,15 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <h3>🔥 14 Days</h3>
+      <h3>🔥 15 Days</h3>
       <sub><b>Unbroken Streak</b></sub>
     </td>
     <td align="center" width="25%">
-      <h3>🎯 140+</h3>
+      <h3>🎯 156+</h3>
       <sub><b>Problems Solved</b></sub>
     </td>
     <td align="center" width="25%">
-      <h3>📓 15 Master</h3>
+      <h3>📓 16 Master</h3>
       <sub><b>Interactive Notebooks</b></sub>
     </td>
     <td align="center" width="25%">
@@ -67,17 +67,18 @@
 | **10** | **Searching & Sorting** | Linear Search, Bubble, Selection, Insertion | 9 | [Open Notebook ↗](./Day-10-Searching-Sorting/Day-10-Searching-Sorting.ipynb) | `✅ Complete` |
 | **11** | **Binary Search** | Divide & Conquer, Lower/Upper Bounds | 11 | [Open Notebook ↗](./Day-11-Binary-Search/Day-11-Binary-Search.ipynb) | `✅ Complete` |
 | **12** | **List Algorithms** | Two Pointers, Subarrays, Rotations | 12 | [Open Notebook ↗](./Day-12-List/Day-12-List.ipynb) | `✅ Complete` |
-| **13** | **Comprehensive Revision** | End-to-End Logic & Algorithmic Drills | 1 | [Open Notebook ↗](./Day-13-Revision/Day-13-Revision.ipynb) | `✅ Complete` |
+| **13** | **Comprehensive Revision** | End-to-End Logic & Algorithmic Drills | 15 | [Open Notebook ↗](./Day-13-Revision/Day-13-Revision.ipynb) | `✅ Complete` |
 | **14** | **File Handling & Paths** | File I/O, Pointers, Binary, OS & Pathlib | 25 | [Open Notebook ↗](./Day-14-File-Handling/Day-14-File-Handling.ipynb) | `✅ Complete` |
-| **Project** | **Mini Projects** | Full Terminal ATM System (OOP/Logic) | 1 | [Open Notebook ↗](./Mini-Projects/Mini-Projects.ipynb) | `✅ Complete` |
-| **15+** | **Core DSA Roadmap** | Recursion, Stacks, Queues, Linked Lists | — | *Coming Soon* | `⏳ Next Up` |
+| **15** | **OOPs Mastery** | Classes, Inheritance, Polymorphism, Encapsulation, ABC, Dunder | 16 | [Open Notebook ↗](./Day-15-OOPs/Day-15-OOPs.ipynb) | `✅ Complete` |
+| **Project** | **Enterprise ATM System (V4)** | Full OOP Architecture (ABC, Dunder, Custom Exceptions, File I/O) | 1 | [Open Notebook ↗](./Mini-Projects/Mini-Projects.ipynb) | `✅ Complete` |
+| **16+** | **Core DSA Roadmap** | Recursion, Stacks, Queues, Linked Lists, Trees | — | *Coming Soon* | `⏳ Next Up` |
 
 ---
 
 ## 🔥 Consistency Streak Dashboard
 
 ```text
-Progress: [██████████████████████████████████████░░░░░░░░░░] 70% of Phase 1
+Progress: [█████████████████████████████████████████░░░░░░░] 75% of Phase 1
 
 Day 01  ████████████████████  Control Flow                 ✅ Complete
 Day 02  ████████████████████  Loops & Iteration            ✅ Complete
@@ -93,7 +94,8 @@ Day 11  ████████████████████  Binary Sea
 Day 12  ████████████████████  List Algorithms              ✅ Complete
 Day 13  ████████████████████  Full Mid-Journey Revision    ✅ Complete
 Day 14  ████████████████████  File Handling & OS Systems   ✅ Complete
-Day 15  ░░░░░░░░░░░░░░░░░░░░  Recursion & OOP              ⏳ In Progress
+Day 15  ████████████████████  Object-Oriented Programming  ✅ Complete
+Day 16  ░░░░░░░░░░░░░░░░░░░░  Recursion & Core DSA         ⏳ In Progress
 ```
 
 ---
@@ -116,6 +118,7 @@ python-dsa/
 ├── 📁 Day-12-List/               ──> 📓 Day-12-List.ipynb
 ├── 📁 Day-13-Revision/           ──> 📓 Day-13-Revision.ipynb
 ├── 📁 Day-14-File-Handling/      ──> 📓 Day-14-File-Handling.ipynb
+├── 📁 Day-15-OOPs/               ──> 📓 Day-15-OOPs.ipynb
 ├── 📁 Mini-Projects/             ──> 📓 Mini-Projects.ipynb
 └── 📄 README.md
 ```
@@ -130,11 +133,10 @@ git clone https://github.com/TheShivaji/python-dsa.git
 cd python-dsa
 ```
 
-### 2. Launch with `uv` (Recommended)
-Agar aapke paas **`uv`** installed hai:
+### 2. Launch with `uv` (Recommended — fastest setup)
 ```bash
 uv run jupyter lab
-# ya
+# or
 uv run jupyter notebook
 ```
 
@@ -145,14 +147,17 @@ uv run jupyter notebook
 
 ---
 
-## 🎯 Next Milestones (Phase 2 Roadmap)
+## 🎯 Phase 2 Roadmap — What's Next
 
-- [ ] **Recursion & Backtracking** (Base cases, recursive trees, permutations)
-- [ ] **Object-Oriented Programming (OOP)** (Classes, Inheritance, Encapsulation, Dunder methods)
-- [ ] **Time & Space Complexity** (Big-O analysis, Best/Worst/Average cases)
-- [ ] **Linear Data Structures** (Linked Lists, Stacks, Queues)
-- [ ] **Non-Linear Data Structures** (Trees, Binary Search Trees, Heaps, Graphs)
-- [ ] **Dynamic Programming** (Memoization & Tabulation fundamentals)
+| Topic | Concepts | Status |
+|:---|:---|:---:|
+| **Recursion & Backtracking** | Base cases, Recursive trees, N-Queens, Permutations | `⏳ Next` |
+| **Time & Space Complexity** | Big-O analysis, Best/Worst/Average case comparisons | `📌 Planned` |
+| **Stacks & Queues** | LIFO/FIFO, Implementation, Monotonic Stack | `📌 Planned` |
+| **Linked Lists** | Singly, Doubly, Floyd's Cycle Detection | `📌 Planned` |
+| **Trees & BST** | Traversals, Height, Level-Order, BST Operations | `📌 Planned` |
+| **Graphs** | BFS, DFS, Shortest Path, Topological Sort | `📌 Planned` |
+| **Dynamic Programming** | Memoization, Tabulation, Classic DP Problems | `📌 Planned` |
 
 ---
 
